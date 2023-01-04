@@ -11,14 +11,59 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+   
+    body{font-family: 'Poppins', sans-serif; background-color: #fafafa;}
 
-      main{margin: 5em;}
-      header{font-family: 'Poppins', sans-serif; font-size: 40px; text-align: center; margin: 0.2em;}
-      
+    .Cards{display:flex;justify-content: center;align-items: center;}
+
+
+    .Card{
+      border-radius: 5px; 
+      box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22) ;
+      padding: 30px;
+      margin: 20px;
+      width: 400px;
+      transition: all 0.3s ease-out;
+    }
+
+    .Card:hover{
+      transform: translateY(-5px);
+      cursor: pointer;
+    }
+
+    .Card p{
+      color: #a3a5ae;
+      font-size: 15px;
+    }
+
+    .Red{border-top: 4px solid red;}
+    .Green{border-top: 4px solid green;float: left;}
+    .Golden{border-top: 4px solid orange;}
+    .Blue{border-top:  4px solid blue;}
+
+
+
+    .image{
+      float: right;
+      max-width: 64px;
+      max-height: 64px;
+    }
+
+    main{margin: 6em;}
+
+    header{font-family: 'Poppins', sans-serif; font-size: 40px; text-align: center; color: rgb(85, 78, 78);}
+
+    .Subtitulo{color:rgb(61, 58, 58);font-weight: bold; font-size: 42px;}
+
+    .texto{width: 800px; margin: auto; margin-top: -1.5em;}
+
+    h1{font-size: 1.5em; color: rgb(199, 194, 194); margin: 2em; text-align: center;} 
+    .tex
     
 
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    footer{margin: 5em;text-align: center;}
     
   </style>
 </head>
@@ -27,21 +72,47 @@
     <main>
       <header class="Titulo">Reliable, efficient delivery</header> 
       <header class="Subtitulo">Powered by Technology</header> 
+      <div class="texto">
+        <h1>Our Artificial Intelligence powered tools use millions of project data points 
+        to ensure that your project is successful</h1>
+      </div>
 
-      Our Artificial Intelligence powered tools use millions of project data points 
-      to ensure that your project is successful
 
-      Supervisor
-      Monitors activity to identify project roadblocks
 
-      Team Builder
-      Scans our talent network to create the optimal team for your project
 
-      Karma
-      Regularly evaluates our talent to ensure quality
 
-      Calculator
-      Uses data from past projects to provide better delivery estimates
+      <div class="Cards">
+
+        <div class="Card Blue">
+          <h2>Calculator</h2>
+          <p>Uses data from past projects to provide better delivery estimates</p>
+          <img class="image" src="images/icon-calculator.svg" alt="Calculator">
+        </div>
+
+        <div class="Card Green">
+          <h2>Supervisor</h2>
+          <p>Monitors activity to identify project roadblocks</p>
+          <img class="image" src="images/icon-supervisor.svg" alt="Supervisor">
+        </div> 
+
+        <div class="Card Red">
+          <h2>Team Builder</h2>
+          <p>Scans our talent network to create the optimal team for your project</p>
+          <img class="image" src="images/icon-team-builder.svg" alt="Builder">
+        </div>
+
+        <div class="Card Golden">
+          <h2>Karma</h2>
+          <p>Regularly evaluates our talent to ensure quality</p>
+          <img class="image" src="images/icon-karma.svg" alt="Karma">
+        </div>
+
+
+
+      </div>
+
+
+      
 
       
       <footer>
