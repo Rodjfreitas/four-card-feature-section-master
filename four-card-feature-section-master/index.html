@@ -71,28 +71,32 @@
   
 
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 375px) {
       
-      header{font-size: 20px;}
-      .Subtitulo{font-size: 21px;}
-      .texto{width: 310px; margin: auto; margin-top: -0.5em;}
+      .Cabeçalho{width: 230px;}
+      header{font-size: 15px;text-align: center;}
+      .Subtitulo{font-size: 15px;text-align: center;}
+      .texto{width: 230px;margin: auto; margin-top: -0.5em;}
+      .texto h1{font-size: 9px;}
 
-      .Cards{position: relative;justify-content: center;align-items: center;width: 80%;top: 0px;}
+      .Cards{position: relative;justify-content: center;align-items: center;width: 100%;top: 0px;}
 
-      .Card{width: 70%; height: 150px;}
-      .Card p{font-size: 10px;}
-      .Card h2{font-size: 20px;}
-      .image{ max-width: 40px; max-height: 40px;}
+      .Card{margin-left: 5px;width: 70%; height: 100px;}
+      .Card p{font-size: 8px;}
+      .Card h2{font-size: 12px;}
+      .image{ max-width: 32px; max-height: 32px;}
 
-      .texto{margin-bottom: -17em;}
+      .texto{margin-bottom: -14em;}
 
     .Red{border-top: 4px solid #EA5353;position: relative;clear: both;top: 20px;}
     .Green{border-top: 4px solid #45D3D3;position: relative;clear: both;top:0px }
     .Orange{border-top: 4px solid #FCAF4A;position: relative;clear: both;top:30px }
-    .Blue{border-top:  4px solid #549EF2;position: relative;clear: both;top:1040px }
+    .Blue{border-top:  4px solid #549EF2;position: relative;clear: both;top:820px }
 
-    footer{width: 70%;position: relative;margin: auto;top: 350px;}
+    footer{width: 70%;position: relative;margin: auto;top: 300px;}
+    .attribution { font-size: 8px; text-align: center; }
 
+    main{margin: 1em; margin-top: 2.5em;}
 
     }
 
@@ -103,13 +107,14 @@
 
 <body>
     <main>
-      <header class="Titulo">Reliable, efficient delivery</header> 
-      <header class="Subtitulo">Powered by Technology</header> 
-      <div class="texto">
-        <h1>Our Artificial Intelligence powered tools use millions of project data points 
-        to ensure that your project is successful</h1>
-      </div>
-
+      <div class="Cabeçalho">
+        <header class="Titulo">Reliable, efficient delivery</header> 
+        <header class="Subtitulo">Powered by Technology</header> 
+        <div class="texto">
+          <h1>Our Artificial Intelligence powered tools use millions of project data points 
+          to ensure that your project is successful</h1>
+        </div>
+    </div>
 
     
       <div class="Cards">
