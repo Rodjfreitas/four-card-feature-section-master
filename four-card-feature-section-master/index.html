@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Rubik+Gemstones&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <style>  
    
     body{font-family: 'Poppins', sans-serif; background-color: #fafafa;}
 
-    .Cards{position: relative; display:flex;justify-content: center;align-items: center;}
+    .Cards{justify-content: center;align-items: center;width: 1200px;margin: auto;}
 
 
     .Card{
@@ -22,8 +22,10 @@
       box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22) ;
       padding: 30px;
       margin: 20px;
-      width: 400px;
+      width: 300px;
+      height: 190px;
       transition: all 0.3s ease-out;
+      position: relative;
     }
 
     .Card:hover{
@@ -36,10 +38,12 @@
       font-size: 15px;
     }
 
-    .Red{border-top: 4px solid red;}
-    .Green{border-top: 4px solid green;float: left;}
-    .Golden{border-top: 4px solid orange;}
-    .Blue{border-top:  4px solid blue;}
+    .Card h2{color: rgb(61, 58, 58);}
+
+    .Red{border-top: 4px solid #EA5353;position: relative;margin: auto;margin-bottom: 40px;}
+    .Green{border-top: 4px solid #45D3D3;float: left;top: 150px;clear: left;}
+    .Orange{border-top: 4px solid #FCAF4A;margin: auto;}
+    .Blue{border-top:  4px solid #549EF2;clear:right;float: right;top: 150px;}
 
 
 
@@ -49,21 +53,50 @@
       max-height: 64px;
     }
 
-    main{margin: 6em;}
+    main{margin: 4em;}
 
-    header{font-family: 'Poppins', sans-serif; font-size: 40px; text-align: center; color: rgb(85, 78, 78);}
+    header{font-family: 'Poppins', sans-serif; font-size: 30px; text-align: center; color: rgb(85, 78, 78);}
 
-    .Subtitulo{color:rgb(61, 58, 58);font-weight: bold; font-size: 42px;}
+    .Subtitulo{color:#4C4E61;font-weight: bold; font-size: 32px;}
 
-    .texto{width: 800px; margin: auto; margin-top: -1.5em;}
+    .texto{width: 500px; margin: auto; margin-top: -0.5em;}
 
-    h1{font-size: 1.5em; color: rgb(199, 194, 194); margin: 2em; text-align: center;} 
+    h1{font-size: 13px; color: #A3A5AE; margin: 2em; text-align: center;margin-bottom: 4em;} 
     .tex
     
 
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
     footer{margin: 5em;text-align: center;}
+  
+
+
+    @media screen and (max-width: 600px) {
+      
+      header{font-size: 20px;}
+      .Subtitulo{font-size: 21px;}
+      .texto{width: 310px; margin: auto; margin-top: -0.5em;}
+
+      .Cards{position: relative;justify-content: center;align-items: center;width: 80%;top: 0px;}
+
+      .Card{width: 70%; height: 150px;}
+      .Card p{font-size: 10px;}
+      .Card h2{font-size: 20px;}
+      .image{ max-width: 40px; max-height: 40px;}
+
+      .texto{margin-bottom: -17em;}
+
+    .Red{border-top: 4px solid #EA5353;position: relative;clear: both;top: 20px;}
+    .Green{border-top: 4px solid #45D3D3;position: relative;clear: both;top:0px }
+    .Orange{border-top: 4px solid #FCAF4A;position: relative;clear: both;top:30px }
+    .Blue{border-top:  4px solid #549EF2;position: relative;clear: both;top:1040px }
+
+    footer{width: 70%;position: relative;margin: auto;top: 350px;}
+
+
+    }
+
+
     
   </style>
 </head>
@@ -78,8 +111,8 @@
       </div>
 
 
+    
       <div class="Cards">
-
         <div class="Card Blue">
           <h2>Calculator</h2>
           <p>Uses data from past projects to provide better delivery estimates</p>
@@ -98,7 +131,7 @@
           <img class="image" src="images/icon-team-builder.svg" alt="Builder">
         </div>
 
-        <div class="Card Golden">
+        <div class="Card Orange">
           <h2>Karma</h2>
           <p>Regularly evaluates our talent to ensure quality</p>
           <img class="image" src="images/icon-karma.svg" alt="Karma">
