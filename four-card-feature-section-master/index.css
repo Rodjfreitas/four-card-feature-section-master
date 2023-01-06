@@ -64,11 +64,11 @@
       header{font-size: 20px;text-align: center;}
       .Subtitulo{font-size: 20px;text-align: center;}
       .texto{width: 290px;margin: auto; margin-top: -0.5em;}
-      .texto h1{font-size: 11px;}
+      .texto h1{font-size: 12px;}
 
       .Cards{position: relative;justify-content: center;align-items: center;width: 100%;top: 0px;}
 
-      .Card{margin-left: 5px;width: 70%; height: 100px;}
+      .Card{margin-left: 5px;width: 60%; height: 100px; left: 20px;}
       .Card p{font-size: 11.3px;}
       .Card h2{font-size: 12px;}
       
@@ -76,15 +76,15 @@
 
       .texto{margin-bottom: -14em;}
 
-      .Red{border-top: 4px solid #EA5353;position: relative;clear: both;top: 20px;}
-      .Green{border-top: 4px solid #45D3D3;position: relative;clear: both;top:0px }
-      .Orange{border-top: 4px solid #FCAF4A;position: relative;clear: both;top:30px }
-      .Blue{border-top:  4px solid #549EF2;position: relative;clear: both;top:820px; left: -10px; }
+      .Red{border-top: 4px solid #EA5353;position: relative;clear: both;top: 20px;margin-bottom: 12px;}
+      .Green{border-top: 4px solid #45D3D3;position: relative;clear: both;top:0px;margin-bottom: 5px; }
+      .Orange{border-top: 4px solid #FCAF4A;position: relative;clear: both;top:30px;}
+      .Blue{border-top:  4px solid #549EF2;position: relative;clear: both;top:765px;left: -20px;}
 
-      footer{width: 70%;position: relative;margin: auto;top: 300px;}
+      footer{width: 290px;;position: relative;margin: auto;top: 240px;}
       .attribution { font-size: 11px; text-align: center; }
 
-      main{margin: 1em; margin-top: 2.5em;}
+      main{margin: 1em; margin-top: 4em;}
 
     }
 
