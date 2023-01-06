@@ -90,8 +90,10 @@ I will improve myself in object placement studies to work more efficiently in fu
 
 ### Useful resources
 
-- (https://programandosolucoes.dev.br/2021/06/22/card-html-css/#:~:text=Como%20fazer%20card%20com%20HTML%20%2B%20CSS%201,V%C3%ADdeo%206%20C%C3%B3digo%20fonte%20...%207%20Refer%C3%AAncias%20) - This Site helped me to create the cards, since it was a new content for me, who had little knowledge.
-- (https://www.youtube.com/watch?v=3l8fIh4y54E&t=314s) - This link helped me understand the application of the media query to apply responsiveness to the site.
+<a href="https://programandosolucoes.dev.br/2021/06/22/card-html-css/#:~:text=Como%20fazer%20card%20com%20HTML%20%2B%20CSS%201,V%C3%ADdeo%206%20C%C3%B3digo%20fonte%20...%207%20Refer%C3%AAncias%20" target="_blank"><img src="https://img.shields.io/badge/-WebSite...-0F9D58?style=for-the-badge&logo=Google&logoColor=white"> - This Site helped me to create the cards, since it was a new content for me, who had little knowledge.
+
+
+<a href="https://www.youtube.com/watch?v=3l8fIh4y54E&t=314s" target="_blank"><img src="https://img.shields.io/badge/-EdiCursos-FF0000?style=for-the-badge&logo=Youtube&logoColor=white"> - This link helped me understand the application of the media query to apply responsiveness to the site.
 
 
 ## Author
