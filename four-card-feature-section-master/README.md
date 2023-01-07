@@ -54,6 +54,7 @@ The most challenging moment was adjusting the styling of the cards on screen. Th
 Then I came across another challenge proposed by the project: The requirement that the screen fit between 375px and 1440px. I came across the need to make changes to the code so that I could include the presentation in 375px. It was the moment that my research put me in front of the media query.
 
 The biggest problem faced with media query setup is the need to adjust the blue card manually to align with the screen with the others. The margins are not linear with the other cards, and I needed to edit the left, top and left margin properties of this card. (I'm still looking for a way to optimize this situation).
+update: I set the position property of the cards to absolute, and edited the top individually. this solved the problem of the left alignment of the blue card with the others.
 
 Finally, the process needs some tweaking, and I'm finally making the changes to streamline the code.
 
@@ -82,7 +83,21 @@ Positioning objects is a task that requires a lot of patience to learn, especial
       .Blue{border-top:  4px solid #549EF2;position: relative;clear: both;top:845px;left: -5px;}
 ```
 
+
 I used the margin-bottom, top and left properties individually on the cards, as I wasn't successful in universally editing them on the div where the cards were inserted.
+
+fix update: Fix Update: I found a better solution to the issue reported above.
+
+```css
+.Cards{width: 260px;position: absolute;top: 230px;}
+```
+```css
+      .Red{border-top: 4px solid #EA5353; top:200px}
+      .Green{border-top: 4px solid #45D3D3;top: 0px;}
+      .Orange{border-top: 4px solid #FCAF4A;top: 380px;}
+      .Blue{border-top:  4px solid #549EF2;top: 540px;}
+```
+
 
 ### Continued development
 
