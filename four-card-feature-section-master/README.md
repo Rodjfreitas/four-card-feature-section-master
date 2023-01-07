@@ -34,7 +34,7 @@ Users should be able to:
 capture taken from the desktop.
 
 
-![](./Capturas/Captura%20Desafio%20Mobile.png)
+![](./Capturas/Captura%20Desafio%20Mobile.jpg)
 Capture taken from the mobile screen.
 
 
