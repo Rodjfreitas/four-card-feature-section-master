@@ -86,7 +86,7 @@ Positioning objects is a task that requires a lot of patience to learn, especial
 
 I used the margin-bottom, top and left properties individually on the cards, as I wasn't successful in universally editing them on the div where the cards were inserted.
 
-fix update: Fix Update: I found a better solution to the issue reported above.
+fix update: I found a better solution to the issue reported above.
 
 ```css
 .Cards{width: 260px;position: absolute;top: 230px;}
