@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Capturas/Captura%20Desafio%20Desktop.jpg)
+![](./Capturas/Captura-Desafio-Desktop.jpg)
 capture taken from the desktop.
 
 
