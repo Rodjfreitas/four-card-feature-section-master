@@ -61,10 +61,10 @@
     @media screen and (max-width: 390px) {
       
       .Cabeçalho{width: 260px;}
-      header{font-size: 20px;text-align: center;}
-      .Subtitulo{font-size: 21px;text-align: center;}
+      header{font-size: 18px;text-align: center;}
+      .Subtitulo{font-size: 18px;text-align: center;}
       .texto{width: 260px; margin-top: -0.5em;}
-      .texto h1{font-size: 11px;}
+      .texto h1{font-size: 10.3px;}
 
       .Cards{width: 260px;position: absolute;top: 230px;}
 
@@ -82,7 +82,7 @@
       .Orange{border-top: 4px solid #FCAF4A;top: 380px;}
       .Blue{border-top:  4px solid #549EF2;top: 540px;}
 
-      footer{width: 260px;;position: relative;margin: auto;top: 940px;}
+      footer{width: 260px;;position: relative;margin: auto;top: 960px;}
       .attribution { font-size: 11px; text-align: center; }
 
       main{margin: 2em; margin-top: 4em; margin-left: 1em;}
