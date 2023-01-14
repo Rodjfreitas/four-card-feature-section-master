@@ -21,6 +21,17 @@ h1{
       margin: auto; 
 }
 
+.Titulo{
+      font-family: 'Poppins', sans-serif; 
+      font-size: 30px; 
+      color: rgb(85, 78, 78);
+}
+
+.Subtitulo{
+      color:#4C4E61;
+      font-weight: 800; 
+      font-size: 31.7px;
+}
 
 
 #Principal{
@@ -31,22 +42,20 @@ h1{
       'B C D'      
       'E E E';
       gap: 15px;
-      margin: 20px;
+      margin: 20px;      
       
       
      
 }
 
 .Cabeçalho{
-      grid-area: A;
-      border: 2px solid black;
+      grid-area: A;      
       padding: 20px;
       text-align: center;
 }
 
 .Left{
-      grid-area: B;
-      border: 2px solid black;           
+      grid-area: B;                
       display: flex;
       justify-content: center;
       align-items: center;     
@@ -56,8 +65,7 @@ h1{
 
 
 .Central{
-      grid-area: C;
-      border: 2px solid black;       
+      grid-area: C;            
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -65,13 +73,25 @@ h1{
 }
 
 .Right{
-      grid-area: D;
-      border: 2px solid black;
+      grid-area: D;      
       display: flex;
       justify-content: center;
       align-items: center;
     
 
+}
+
+.Green{border-top: 4px solid #45D3D3;
+}
+
+.Red{
+      border-top: 4px solid #EA5353;      
+}
+
+.Orange{border-top: 4px solid #FCAF4A;
+}
+
+.Blue{border-top:  4px solid #549EF2;
 }
 
 .Cards{
@@ -95,10 +115,16 @@ h1{
       cursor: pointer;
 }
 
+.image{
+      margin: 20px;
+      float: right;
+      max-width: 60px;
+      max-height: 60px;
+}
+
 
 footer{      
-      grid-area: E;
-      border: 2px solid black;
+      grid-area: E;      
 }
 .attribution {
       font-size: 11px; text-align: center; 
@@ -106,6 +132,8 @@ footer{
 .attribution a { 
       color: hsl(228, 45%, 44%); 
 }
+
+
 
 
     /*.Cards{justify-content: center;align-items: center;width: 1200px;margin: auto;}*/
