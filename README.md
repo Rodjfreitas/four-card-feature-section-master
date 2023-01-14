@@ -28,21 +28,30 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
+### Video 🎞️
+
+![Video](https://user-images.githubusercontent.com/119018022/212497449-6e00ff49-f4db-4afe-937b-06af33e2f639.gif)
+
 ### Screenshot
 
-![](./four-card-feature-section-master/Capturas/Web.jpeg)
 capture taken from the desktop.
 
-### Mobile print 📱
+![](./four-card-feature-section-master/Capturas/Web.jpeg)
 
-GalaxyS20
-![](./four-card-feature-section-master/Capturas/GalaxyS20.png)
+
+### Mobile print 📱
 Capture taken from the mobile screen.
+GalaxyS20
+
+![](./four-card-feature-section-master/Capturas/GalaxyS20.png)
+
 
 IphoneSE
+
 ![](./four-card-feature-section-master/Capturas/iphoneSE.png)
 
 IphoneXR
+
 ![](./four-card-feature-section-master/Capturas/iphoneXR.png)
 
 
