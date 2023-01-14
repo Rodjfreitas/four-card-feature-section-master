@@ -10,17 +10,31 @@ body{
       background-color: #fafafa;
 }
 
+h1{
+      font-size: 13px; 
+      color: #A3A5AE; 
+      margin: 2em; 
+} 
+
+.texto{
+      width: 500px;
+      margin: auto; 
+}
+
+
 
 #Principal{
-      display: grid;            
+      display: grid;                 
       grid-template-areas: 
-      'A A A'
+      'A A A  '
       'B C D'
-      'B C D'
-      'B C D'
+      'B C D'      
       'E E E';
-      gap: 30px;
+      gap: 15px;
       margin: 20px;
+      
+      
+     
 }
 
 .Cabeçalho{
@@ -32,22 +46,22 @@ body{
 
 .Left{
       grid-area: B;
-      border: 2px solid black;
-      width: fit-content;      
+      border: 2px solid black;           
       display: flex;
       justify-content: center;
-      align-items: center;
-      
-      
-      
+      align-items: center;     
 
 }
 
+
+
 .Central{
       grid-area: C;
-      border: 2px solid black;
-      width: fit-content; 
-      margin-top: 180px 0;
+      border: 2px solid black;       
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 }
 
 .Right{
@@ -56,11 +70,12 @@ body{
       display: flex;
       justify-content: center;
       align-items: center;
-      width: fit-content; 
+    
+
 }
 
-.Cards, .Card{
-      padding: 30px;
+.Cards{
+      box-sizing: border-box;
       
 }
 
@@ -70,6 +85,7 @@ body{
       box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22) ;
       transition: all 0.3s ease-out;       
       width: 300px;
+      margin: 20px;
       
       
 }
@@ -80,8 +96,7 @@ body{
 }
 
 
-footer{
-      margin: 5em;text-align: center;
+footer{      
       grid-area: E;
       border: 2px solid black;
 }
